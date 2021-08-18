@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/oswald-stencil/Oswald-Medium.ttf);
+}
+@font-face {
+    font-family: "Prestige Elite Std";
+    src: url(../fonts/prestige-elite-std/PrestigeEliteStd-Bd.otf);
+}
+@font-face {
+    font-family: "Charlemagne Std";
+    src: url(../fonts/charlemagne-std/CharlemagneStd-Bold.otf);
+}
+@font-face {
+    font-family: "Heavy Copper";
+    src: url(../fonts/heavy-copper-font/HeavyCopper-BWXBx.otf);
+}
+@font-face {
+    font-family: Funtasia;
+    src: url(../fonts/funtasia-font/Funtasia-axYAa.ttf);
+}
+@font-face {
+    font-family: "NightmarePills";
+    src: url(../fonts/NightmarePills-BV2w.ttf);
+}
+@font-face {
+    font-family: "Death Star";
+    src: url(../fonts/death-star-font/DeathStar-VmWB.ttf);
+}

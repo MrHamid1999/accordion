@@ -1,0 +1,61 @@
+body{
+    width: 100vw;
+    height: auto;
+    background: linear-gradient(59deg, #ddd , #f1f1f1);
+    
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container > h1{
+    color: rgb(47, 47, 92);
+    margin: auto;
+    margin-bottom: 1em;
+
+}
+.accordion{
+    width: 30vw;
+    min-width:350px;
+    margin: auto;
+    
+}
+.accordion > div > span {
+    background-color: rgb(169, 201, 248);
+    display: block;
+    cursor: pointer;
+    width: 90%;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid #f1f1f1;
+}
+.accordion > div > span::after{
+    content: "\002b";
+    float: right;
+}
+.accordion > div > span:hover{
+    background-color:rgb(143, 187, 253) ;
+}
+.accordion > div > div{
+    
+    border-left : 1px solid #ccc;
+    border-right : 1px solid #ccc;
+    max-height: 0;
+    overflow: hidden;
+    width: 90%;
+    transition: all 0.9s;
+    padding: 0 15px;
+
+}
+.accordion > div.show > div{
+    
+    padding: 15px;
+}
+.accordion > div.show > span{
+    background-color:rgb(143, 187, 253) ;
+}
+.accordion > div.show > span::after{
+    content: "\2212";
+}
